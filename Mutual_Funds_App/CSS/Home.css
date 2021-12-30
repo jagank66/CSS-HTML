@@ -1,0 +1,280 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto' ;
+}
+
+.header-section {
+    width: 100%;
+    height:30px;
+    background-color: #E4FAF4;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 6px;
+    align-items: center;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+    width: 400px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 13px;
+}
+.ln {
+    font-size: 13px;
+    font-weight: 300;
+}
+select {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+/* -----Search---- */
+.search-header {
+    width: 100%;
+    height: 95px;
+}
+.search {
+    border: none;
+    width: 90%;
+    height: 42px;
+    background: transparent;
+    padding-left: 10px;
+    outline: none;
+}
+.search-div {
+  height: 42px;
+  width: 240px;
+  position: absolute;
+  top: 40px;
+  right: 50%;
+}
+.login-label {
+    font-weight: 700;
+}
+
+/* --Intro--- */
+.intro-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    text-align: left;
+    padding: 150px;
+}
+.dot {
+width: 525px;
+height: 508px;
+padding-right: 20px;
+}
+.intro-section h1 {
+    margin-bottom: 20px;
+}
+span {
+    font-weight: 800;
+}
+.intro-section,.description-div p {
+    font-weight:lighter;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.get-start {
+    width: 209px;
+    height: 52px;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    background: #00D09C;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.get-start:hover {
+background: white;
+color: #00D09C;
+}
+/* ----Trust--- */
+.trust-section {
+    width: 100%;
+    height: 190px;
+    background: #E4FAF4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-div {
+    text-align: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+h2 {
+  margin-bottom: 20px; 
+  
+}
+.row {
+
+    width: 400px;
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.awards {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+}
+.awards img {
+    margin-bottom: 15px;
+}
+.awards  h4 {
+    font-weight: 300;
+    font-size: 13px;
+}
+/* ---Learn--- */
+.learn-section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+ .illution {
+    width: 627px;
+    height: 470px;
+   margin: auto;
+  animation: rotate  5s infinite;
+  
+}
+.about-div {
+    width: 390px;
+    height: 450px;
+    margin: auto;
+    margin-left: -20px;
+}
+.about-div h4 {
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.about-div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-div ul li {
+   list-style: none;
+   font-weight: 300;
+   height: 45px;
+}
+
+.about-div ul {
+    text-align: left;
+}
+.more-btn,.video-btn {
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    text-overflow: ellipsis;
+    background: transparent;
+    color:#00D09C ;
+    cursor: pointer;
+}
+.more-btn {
+    background:#00D09C;
+    color: white;
+    transition: 0.5s;
+}
+.video-img {
+    width: 30px;
+    height: 30px;
+    margin:-10px auto;
+    margin-left: -20px;
+}
+.more-btn:hover{
+    color:#00D09C;
+    background-color: white;
+}
+/* ---Experts---- */
+.ask-experts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .illu {
+    width: 540px;
+    height: 673px;
+  margin-right: 30px;
+}
+.ask {
+    margin: auto;
+    text-align: left;
+}
+.invest,.schedule {
+    width: 160px;
+    background:#00D09C;
+    color: white;
+    transition: 0.5s;
+    border: none;
+    height: 52px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.invest:hover {
+    color:#00D09C;
+    background-color: white;
+}
+.schedule:hover {
+    color:#00D09C;
+    background-color: white;
+}
+.items {
+    flex-basis: 25%;
+    margin: auto;
+}
+.items img {
+    margin-top: 10px auto;
+    margin-bottom: 20px;
+}
+.items h3 {
+    margin-bottom: 30px;
+}
+.items p {
+    margin-bottom: 30px;
+    font-weight: 300;
+ 
+}
+.ask h1 {
+    font-size: 40px;
+    line-break: 52px;
+    margin-bottom: 10px;
+
+}
+.ask h5 {
+    font-size: 13px;
+    font-weight: 100;
+}
+.rows{
+    width: 400px;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+@keyframes rotate{
+50%{transform: rotateY(160deg);}
+100%{transform: rotateY(120deg);}
+}
